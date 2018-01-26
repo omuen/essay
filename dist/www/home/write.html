@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+    <title></title>
+    <style type="text/css">
+      html{margin:0; padding:0;}
+      body{margin:0; padding:4px;}
+      textarea{
+        width: 100%;
+        max-width: 640px;
+        display: block;
+        resize: none;
+        outline: none;
+        height: 240px;
+        margin: 0 auto;
+        box-sizing: border-box;
+        border: solid 1px #EAEAEA;
+        padding: 8px;
+        line-height: 1.618;
+        text-align: left;
+      }
+      input[type="submit"]{
+        color: white;
+        width: 100%;
+        max-width: 640px;
+        display: block;
+        resize: none;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        padding: 8px;
+        margin: 10px auto;
+        box-sizing: border-box;
+        background-color: #008080;
+      }
+    </style>
+  </head>
+  <body>
+    <form  action="/save.do" target="_blank" method="POST">
+      <textarea name="content"></textarea>
+      <input type="submit" value="Save" />
+    </form>
+  </body>
+</html>
+  
